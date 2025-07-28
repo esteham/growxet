@@ -1,0 +1,146 @@
+body 
+        {
+            background: #e9ecef;
+        }
+        
+        .login-container 
+        {
+            margin-top: 8%;
+            max-width: 400px;
+            background: hsl(0, 0%, 100%);
+            padding: 2.5rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+        }
+
+        .login-title 
+        {
+            font-weight: bold;
+            color: #304d3e;
+        }
+        
+        .admin-header {
+            padding: 15px 0;
+        }
+        .admin-header .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+        }
+        .admin-header .nav-link {
+            color: #fff !important;
+        }
+
+        .custom-sidebar {
+            background: #304d3e !important;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 300px;
+            max-width: 100%;
+        }
+
+        .custom-sidebar .nav {
+            flex: 1 1 auto;
+        }
+
+        .custom-sidebar .site-footer {
+            flex-shrink: 0;
+        }
+
+        .custom-sidebar .nav-link 
+        {
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+            color: #fff !important;
+            margin-bottom: 10px;
+        }
+
+        .custom-sidebar .nav-link:hover 
+        {
+            background: #40594a !important;
+            color: #fff !important;
+            transform: translateX(10px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+        }
+
+        .custom-sidebar .nav-link.active 
+        {
+            background: #40594a !important;
+            color: #fff !important;
+        }
+
+        #projectsMenu ul, #loansMenu ul, #usersMenu ul, #txnMenu ul, #settingsMenu ul 
+        {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.custom-nav
+{
+    border-left: #304d3e 3px solid !important;
+}
+
+/* Notification Dropdown */
+.notification-dropdown {
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notification-dropdown .dropdown-item {
+    white-space: normal;
+    padding: 0.5rem 1rem;
+}
+
+.notification-dropdown small {
+    display: block;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Badge position */
+.fa-bell {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 0.6rem;
+}
+
+
+
+
+  .floating-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 1s ease;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .floating-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  
+.admin-header.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+/* Section divider for sidebar */
+.sidebar-section {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
